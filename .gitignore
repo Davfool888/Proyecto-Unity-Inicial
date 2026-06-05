@@ -1,4 +1,6 @@
-# Unity
+# =========================
+# Unity Core
+# =========================
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -6,18 +8,66 @@
 [Bb]uilds/
 [Ll]ogs/
 UserSettings/
+MemoryCaptures/
 
-# Visual Studio
+# Addressables / cache
+[Bb]uildCache/
+
+# =========================
+# Unity generated / runtime artifacts
+# =========================
+*.apk
+*.aab
+
+# Unity auto-generated metadata (no siempre necesario versionar)
+*.pidb
+*.booproj
+*.svd
+
+# =========================
+# Android / NDK / CMake / IL2CPP
+# =========================
+.utmp/
+CMakeFiles/
+CMakeCache.txt
+*.ninja
+*.log
+*.bin
+*.tmp
+compile_commands.json
+compile_commands.json.*
+il2cppOutput/
+arm64-v8a/
+x86/
+x86_64/
+
+# Burst / Unity Jobs debug builds
+*_BurstDebugInformation_DoNotShipItWithYourGame/
+*_DoNotShipItWithYourGame/
+
+# =========================
+# Visual Studio / IDE
+# =========================
 .vs/
 *.csproj
 *.sln
 *.suo
 *.user
 *.userprefs
+*.unityproj
 
-# Rider
+# Rider / JetBrains
 .idea/
+*.iml
 
-# OS
+# =========================
+# OS files
+# =========================
 .DS_Store
 Thumbs.db
+ehthumbs.db
+
+# =========================
+# Optional Unity packages cache
+# =========================
+Packages/packages-lock.json.bak
